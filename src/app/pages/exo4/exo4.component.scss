@@ -1,19 +1,32 @@
-.board{
-    display: flex;
-    flex-wrap: wrap;
+.board {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.btDisabled{
-    display: none;
+.btDisabled {
+  display: none;
 }
 
-.card-body{
-    display: flex;
-    flex-direction: column;
-    min-width: fit-content;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  min-width: fit-content;
 
-    img{
-        margin: 5px;
-        width: 100px;       
+  .card-title {
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .cardImg {
+    cursor: pointer;
+
+    img {
+      margin: 5px;
+      width: 100px;
     }
+  }
+}
+
+.grisee {
+  background: grey;
 }

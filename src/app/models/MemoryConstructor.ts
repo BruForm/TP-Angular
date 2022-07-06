@@ -49,9 +49,6 @@ export class MemoryConstructor {
         }
     }
 
-    /**
-     * checkCouple
-     */
     public checkCouple(selectedCard: MemoryCard): void {
         let checks: MemoryCard[] = [];
         for (let card of this._memoryCards) {
