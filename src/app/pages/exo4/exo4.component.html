@@ -3,7 +3,7 @@
   <div *ngFor="let card of cards">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title" [class.grisee]="card.hasBeenFound">
+        <h5 class="card-title" [class.selected]="card.hasBeenReturned" [class.grisee]="card.hasBeenFound">
           {{ card.id + 1 }}
         </h5>
         <div
